@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0
+}
+body {
+    text-align: center;
+    font-family: Arial;
+    background-color: #282828;
+}
+header, footer {
+    width: 100%;
+    background-color: #000;
+    text-align: center;
+    padding: 10px
+}
+header div {
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-size: 24px
+}
+header h1, footer p {
+    color: #fff;
+    padding-right: 20px;
+    vertical-align: middle
+}
+footer {
+    position: fixed;
+    bottom: 0
+}
+footer a {
+    color: #D97925
+}
+#canvasGame {
+    margin-top: 70px;
+    background: url(../images/bg.png);
+    border: solid 5px #013440
+}
+#status {
+    font-size: 40pt
+}
+#status p {
+    font-size: 16pt
+}
+@keyframes colors {
+    0% {
+        background: #33CCFF;
+    }
+    50% {
+        background: #FF3300;
+    }
+    100% {
+        background: yellow;
+    }
+}
+@-moz-keyframes colors {
+    0% {
+        background: #33CCFF;
+    }
+    50% {
+        background: #FF3300;
+    }
+    100% {
+        background: yellow;
+    }
+}
+@-webkit-keyframes colors {
+    0% {
+        background: #33CCFF;
+    }
+    50% {
+        background: #FF3300;
+    }
+    100% {
+        background: yellow;
+    }
+}
